@@ -9,5 +9,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8080
-  type: LoadBalancer  # Change to ClusterIP if internal-only, NodePort for external access
+  type: NodePort  # Change to ClusterIP if internal-only, NodePort for external access
 
